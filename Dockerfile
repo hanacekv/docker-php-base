@@ -16,9 +16,14 @@ RUN apk --update add \
         php7-mbstring \
         php7-openssl \
         php7-pcntl \
+        php7-pdo \
+        php7-pdo_mysql \
+        php7-pdo_pgsql \
+        php7-pdo_sqlite \
         php7-pear \
         php7-phar \
         php7-posix \
+        php7-session \
         php7-tokenizer \
     && clean
 
