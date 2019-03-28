@@ -7,6 +7,7 @@ RUN addgroup -g 82 -S www-data && adduser -u 82 -D -S -G www-data www-data
 
 RUN apk --update add \
         bash \
+        curl \
         "php7>7.1" \
         php7-apcu \
         php7-ctype \
