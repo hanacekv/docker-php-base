@@ -41,4 +41,4 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 WORKDIR /var/www
 
-CMD ["/bin/sh"]
+ENTRYPOINT ["/bin/sh"]
